@@ -12,6 +12,22 @@
 
 确保你的电脑上已安装 Node.js (v18 或更高版本)。
 
+终端命令安装 Node.js
+
+\- Windows (PowerShell):
+
+powershell
+
+winget install OpenJS.NodeJS.LTS
+
+\-macOS (Terminal):
+
+brew install node
+
+Linux (Ubuntu/Debian):
+
+curl -fsSL \[https://deb.nodesource.com/setup\_lts.x](https://deb.nodesource.com/setup\_lts.x) | sudo -E bash - \&\& sudo apt install -y nodejs
+
 
 
 2\. 获取代码
@@ -28,7 +44,7 @@ node gua.js
 
 
 
-4\.首次配置
+4.首次配置
 
 第一次运行时，程序会提示你输入 DeepSeek 的 API Key (sk-...)。
 
